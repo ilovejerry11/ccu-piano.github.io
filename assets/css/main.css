@@ -1,6 +1,22 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
 
+/* self-defined animation */
+div.more-content {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease;
+}
+
+.more-content p {
+	color: #a2a2a2;;
+}
+
+.expand-btn {
+	max-height: 1000px;
+	border-bottom: none;
+}
+
 /*
 	Strata by HTML5 UP
 	html5up.net | @ajlkn
@@ -2570,9 +2586,10 @@ input, select, textarea {
 		}
 
 		.work-item p {
-			font-size: 0.8em;
+			font-size: 0.87em;
 			line-height: 1.5em;
 			margin: 0;
+			color: rgb(82, 81, 81);
 		}
 
 /* Header */
