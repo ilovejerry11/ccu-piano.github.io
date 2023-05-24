@@ -1,0 +1,3 @@
+*.mp4 !text !filter !merge !diff
+/video !text !filter !merge !diff
+video !text !filter !merge !diff
